@@ -1,0 +1,343 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.header {
+    height: 300px;
+    width: 900px;
+    background-image: url("img/Hero.png");
+    background-position: top center;
+    margin-left: auto;
+    margin-right: auto;
+    float: top;
+}
+
+.mainTitle {
+    padding-top: 70px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.selectBox {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("img/icons_down.png") no-repeat right center transparent;
+    padding-right: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-position: 230px;
+    height: 35px;
+    width: 260px;
+    border: solid white 2px;
+}
+
+.hotBox {
+    margin-left: 50px;
+    height: 110px;
+    width: 800px;
+    background-color: white;
+    text-align: center;
+    float: top;
+    border: solid rgb(211, 204, 204) 1px;
+    border-radius: 5px;
+}
+
+.selecTit {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.dis {
+    display: inline-block;
+    font-size: 30px;
+    height: 40px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#li1 {
+    background-color: #a972e7;
+}
+
+#li2 {
+    background-color: plum;
+    margin-left: 25px;
+}
+
+#li3 {
+    background-color: #eec002;
+    margin-left: 25px;
+}
+
+#li4 {
+    background-color: skyblue;
+    margin-left: 25px;
+}
+
+#li5 {
+    background-color: greenyellow;
+    margin-left: 25px;
+}
+
+.footer {
+    height: 100px;
+    width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(48, 144, 189);
+}
+
+.content {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 1300px;
+}
+
+.contCard {
+    display: inline-block;
+    height: 270px;
+    width: 403px;
+    border: solid rgb(211, 204, 204) 1px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.picture {
+    /* background-image: url(https://khh.travel/FileArtPic.ashx?id=1846&w=1280&h=960); */
+    height: 140px;
+    width: 403px;
+    background-position: center;
+    background-size: cover;
+}
+
+.picTit {
+    color: white;
+    font-size: 25px;
+    padding-top: 90px;
+    padding-left: 10px;
+}
+
+.subTit {
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.time {
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.adr {
+    padding-left: 10px;
+    padding-top: 8px;
+    margin-bottom: 5px;
+}
+
+.telCon {
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.contentTitle {
+    margin-top: 200px;
+    font-size: 35px;
+    color: rgb(115, 84, 202);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footFont1 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footFont2 {
+    color: rgb(199, 199, 43);
+}
+
+.goTop {
+    padding-left: 1060px;
+}
+
+.changePage {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.page_show {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.page_show span {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 11px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    cursor: pointer;
+}
+
+span.page_cur {
+    color: rgb(48, 144, 189);
+}
